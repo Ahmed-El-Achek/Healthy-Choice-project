@@ -1,0 +1,171 @@
+h1 {
+    margin-top: 0%;
+}
+
+h4 {
+    margin: 0%;
+}
+
+.recipeLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 40%;
+    margin-right: auto;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(190, 194, 197);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+    width: auto;
+    border: none;
+    outline: none;
+}
+
+.recipeLink:hover {
+    color: black;
+    background-color: rgb(150, 154, 156);
+}
+
+.labelButton {
+    margin-left: 5px;
+    width: auto;
+}
+
+.descContent {
+    padding-left: 10px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.detail {
+    margin-left: 5s0px;
+}
+
+.Health {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: inset 0 0 0 1px rgb(190, 194, 197);
+    border-radius: 16px;
+
+}
+
+.caution {
+    font-family: cursive;
+    color: orangered;
+}
+
+.portion {
+    display: flex;
+    flex-direction: row;
+    text-align: center
+}
+
+.portVal {
+    margin-left: 3px;
+}
+
+.servingInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.healthLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+.nutriment {
+    display: inline-block;
+    font-family: cursive;
+    margin-left: 23%;
+    font-family: cursive;
+}
+
+.nutri {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-indent: 4px;
+    box-shadow: inset 0 0 0 1px rgb(190, 194, 197);
+}
+
+.nutri:nth-child(3n)+.nutri {
+    clear: both;
+}
+
+.ingredients {
+    display: inline-block;
+    font-family: cursive;
+    list-style-image: url('/upload/toppng.com-fork-and-spoon-logo-512x512.png');
+    list-style-position: outside;
+}
+
+.ingre {
+    display: list-item;
+    float: left;
+    margin: 5px;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-indent: 4px;
+    text-align: start;
+
+}
+
+.ingre:nth-child(2n)+.ingre {
+    clear: both;
+}
+
+.addButton {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.buttonContent {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(190, 194, 197);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height: 25px;
+    width: 175px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttonContent:hover {
+    background-color: rgb(150, 154, 156);
+}
