@@ -71,11 +71,10 @@ class UnconnectedSavedRecipe extends Component {
     if (this.state.recipeList.length === 0) {
       this.savedList();
       return (
-        <div
-          id="loading"
-          className="loading"
-          style={{ display: "block" }}
-        ></div>
+        <div className="empty">
+          <h1>Your Favorite Recipe</h1>
+          <h3 className="emptyText">Your list is empty</h3>
+        </div>
       );
     }
     if (this.state.status) {
