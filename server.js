@@ -34,7 +34,6 @@ app.post("/signup", upload.none(), (req, res) => {
                 res.send(JSON.stringify({ success: "same username" }));
                 return;
             } else {
-
                 dbo
                     .collection("user")
                     .insertOne({ username, password: sha1(password), liked: [] });
@@ -43,8 +42,6 @@ app.post("/signup", upload.none(), (req, res) => {
             }
         })
     }
-    res.send(JSON.stringify({ succes: false }));
-    return;
 });
 
 app.post("/login", upload.none(), (req, res) => {

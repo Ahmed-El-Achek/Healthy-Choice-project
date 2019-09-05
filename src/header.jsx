@@ -109,7 +109,7 @@ class UnconnectedHeader extends Component {
       input: "text",
       confirmButtonText: "Next &rarr;",
       showCancelButton: true,
-      progressSteps: ["1", "2", "3"]
+      progressSteps: ["1", "2"]
     })
       .queue([
         {
@@ -127,9 +127,10 @@ class UnconnectedHeader extends Component {
           let data = new FormData();
           data.append("username", result.value[0]);
           data.append("password", result.value[1]);
+          console.log(result.value[0], result.value[1]);
           let response = await fetch("/signup", {
-            body: data,
             method: "POST",
+            body: data,
             credentials: "include"
           });
           let responseBody = await response.text();
@@ -159,7 +160,7 @@ class UnconnectedHeader extends Component {
       input: "text",
       confirmButtonText: "Next &rarr;",
       showCancelButton: true,
-      progressSteps: ["1", "2", "3"]
+      progressSteps: ["1", "2"]
     })
       .queue([
         {
@@ -220,6 +221,7 @@ class UnconnectedHeader extends Component {
         username: undefined,
         status: false
       });
+      this.setState({ savedRedirect: false });
       return;
     }
   };
