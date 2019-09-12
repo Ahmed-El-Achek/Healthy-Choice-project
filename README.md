@@ -2,7 +2,7 @@
 
 website to search for recipes to learn about the nutritional values of each
 
-# test project
+# Test project
 
 To start the server, run `nodemon server.js`
 
