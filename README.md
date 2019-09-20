@@ -1,6 +1,6 @@
 # Healthy Choice project
 
-My project final, Helathy Choice, i developed website with research for recipes to learn about the nutritional values of each. For this project i have used all technologie i have learn in this Bootcamp Javascript, React Redux, HTML, CSS and MongoDB.
+My project final, It’s a website I built using JavaScript, React, Redux, HTML, CSS and MongoDB. The platform allows users to search for recipes and learn about the nutritional values of each.
 
 # Test project
 
